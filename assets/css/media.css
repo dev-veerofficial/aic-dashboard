@@ -1,0 +1,1379 @@
+@media (min-width: 768px) {
+  /* .container { min-width: 1640px; } */
+  /* .container-fluid {
+      min-width: 1640px;
+  } */
+}
+
+@media (max-width: 380px) {
+  .nav-item a{
+    width: 100%;
+  }
+  .filter-inner input.form-control {
+    width: 250px !important;
+  }
+
+  .raised-box {
+    order: 1;
+  }
+  .welcome-box {
+    order: 2;
+  }
+  .stat-mobile {
+    order: 3;
+  }
+  .badge {
+    order: 4;
+  }
+  h3 {
+    font-size: 1.3rem !important;
+}
+
+.list-league>div>div:first-child{
+  max-width: 38px !important;
+}
+
+.list-league .action .btn{
+  padding: 5px 15px;
+  margin-left: 10px;
+}
+
+.card.home{
+  height: auto !important;
+  min-height: auto !important;
+}
+
+.userprogress .progress{
+  bottom: 0;
+  border-radius: 0 !important;
+  height: 25px;
+}
+
+.userprogress .progressinfo{
+  bottom: 14px !important;
+}
+.userprogress .icon-flag{
+  bottom: 5px !important;
+}
+
+}
+/* @media (max-width: 358px) {
+  .raised-box .card-header h5 {
+    font-size: 23px !important;
+  }
+  .raised-box .card-header p {
+    font-size: 17px !important;
+  }
+  .raised-box .card-body li {
+    padding: 7px !important;
+    font-size: 25px !important;
+  }
+  .raised-box .card-body p {
+    margin-bottom: 0 !important;
+  }
+  .welcome-avatar .avatar img {
+    width: 70px !important;
+  }
+  .welcome-avatar .badge {
+    left: 76px !important;
+  }
+  .welcome-avatar .badge img {
+    max-width: 50px !important;
+  }
+  h5 {
+    font-size: 1rem !important;
+  }
+  .highlight {
+    font-size: 13px !important;
+  }
+  .user_name {
+    left: 45% !important;
+  }
+  .user_subtitle {
+    top: 46% !important;
+  }
+  .card .stat-label {
+    font-size: 13px !important;
+  }
+  .box-homestats .card {
+    padding: 0 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+
+    margin: 5px !important;
+    padding-left: 23px !important;
+  }
+  .data-stat {
+    padding: 0 !important;
+    padding-left: 12px !important;
+  }
+  .card .stat-number {
+    font-size: 15px !important;
+  }
+  .card.home {
+    padding: 0 !important;
+  }
+  .raised-box {
+    padding: 0 !important;
+  }
+  .card .icon-stat {
+    display: none !important;
+  }
+  .runner-subtitle {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  .user_subtitle {
+    display: none !important;
+  }
+  h3 {
+    font-size: 1.3rem !important;
+  }
+  .btn-outline-primary {
+    font-size: 13px !important;
+  }
+} */
+
+@media (min-width: 359px) and (max-width: 419px) {
+  .nav-item a{
+    width: 100%;
+  }
+  .raised-box {
+    order: 1;
+  }
+  .welcome-box {
+    order: 2;
+  }
+  .stat-mobile {
+    order: 3;
+  }
+  .badge {
+    order: 4;
+  }
+  .raised-box .card-header h5 {
+    font-size: 23px !important;
+  }
+  .raised-box .card-header p {
+    font-size: 17px !important;
+  }
+  .raised-box .card-body li {
+    padding: 7px !important;
+    font-size: 25px !important;
+  }
+  .raised-box .card-body p {
+    margin-bottom: 0 !important;
+  }
+  /* .welcome-avatar .avatar img {
+    width: 70px !important;
+  } */
+  .welcome-avatar .badge {
+    left: 76px !important;
+  }
+  /* h5 {
+    font-size: 1.1rem !important;
+  } */
+  .highlight {
+    font-size: 11px !important;
+  }
+  .user_name {
+    left: 45% !important;
+  }
+  .user_subtitle {
+    top: 46% !important;
+  }
+  .card .stat-label {
+    font-size: 13px !important;
+  }
+  .box-homestats .card {
+    padding: 0 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+
+    margin: 5px !important;
+    padding-left: 23px !important;
+  }
+  .data-stat {
+    padding: 0 !important;
+    padding-left: 12px !important;
+  }
+
+  .card.home {
+    padding: 0 !important;
+  }
+  /* .raised-box {
+    padding: 0 !important;
+  } */
+  .action-main i {
+    font-size: 16px !important;
+}
+
+}
+
+@media (min-width: 420px) and (max-width: 470px) {
+  .nav-item a{
+    width: 100%;
+  }
+  .raised-box {
+    order: 1;
+  }
+  .welcome-box {
+    order: 2;
+  }
+  .stat-mobile {
+    order: 3;
+  }
+  .badge {
+    order: 4;
+  }
+  .raised-box .card-header h5 {
+    font-size: 23px !important;
+  }
+  .raised-box .card-header p {
+    font-size: 17px !important;
+  }
+  .raised-box .card-body li {
+    padding: 7px !important;
+    font-size: 25px !important;
+  }
+  .raised-box .card-body p {
+    margin-bottom: 0 !important;
+  }
+  .welcome-avatar .avatar img {
+    width: 85px !important;
+  }
+  .welcome-avatar .badge {
+    left: 93px !important;
+  }
+  /* h5 {
+    font-size: 1.2rem !important;
+  } */
+  .highlight {
+    font-size: 13px !important;
+  }
+  .user_name {
+    left: 45% !important;
+  }
+  .user_subtitle {
+    top: 46% !important;
+  }
+  .card .stat-label {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* ADD CSS HERE */
+
+  .nav-item a{
+    width: 100%;
+  }
+  .list-league>div>div:first-child{
+    max-width: 38px !important;
+  }
+  
+  .list-league .action .btn{
+    padding: 5px 15px;
+    margin-left: 10px;
+  }
+  .raised-box {
+    order: 1;
+  }
+  .welcome-box {
+    order: 2;
+  }
+  .stat-mobile {
+    order: 3;
+  }
+  .badge {
+    order: 4;
+  }
+  .container,
+  .container-fluid {
+    min-width: 100% !important;
+  }
+
+  /* new phase coding ------------------------------------------------------------- */
+  div#navbarSupportedContent {
+    padding: 15px;
+    position: absolute;
+    background: #fff;
+    z-index: 222;
+    width: 100%;
+    top: 98px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px #0000001a;
+  }
+  .user-dropmenu {
+    left: -101px;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler i {
+    font-size: 35px;
+    color: black;
+  }
+  .header {
+    height: 100px;
+  }
+  nav {
+    height: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .header #brandlogo img {
+    max-height: 90px;
+  }
+  .header .box-mainnav .main-nav ul li {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .header .box-mainnav .main-nav ul li > a {
+    box-sizing: border-box;
+    padding: 25px 15px;
+    height: 100%;
+    color: #6c7a89;
+    display: flex;
+    align-items: flex-start;
+  }
+  .link-jgpage {
+    display: flex;
+    flex-direction: column;
+  }
+  .japage-text {
+    background: #dfeaf6;
+  }
+  .navtext {
+    font-size: 20px;
+  }
+  .header .justgivingtext {
+    font-size: 20px;
+  }
+  .header .box-mainnav .main-nav ul li.active {
+    background: #dc4295;
+    color: #ffffff;
+  }
+  .header .box-mainnav .main-nav ul li > a .navicon {
+    font-size: 25px;
+    width: 50px;
+    margin-top: 4px;
+  }
+  .header .box-mainnav .main-nav ul {
+    padding-left: 0;
+  }
+  .header {
+    height: 109px;
+  }
+  .header .box-mainnav .main-nav ul li > a {
+    font-size: 23px;
+  }
+  /* .card.home {
+    height: 100%;
+  } */
+  .card .stat-label {
+    font-size: 15px;
+    color: #6c7a89;
+  }
+  .badge {
+    margin-top: 0px;
+  }
+  .badge .card {
+    height: auto;
+  }
+  .badge .card-body {
+    max-height: 290px;
+    overflow: auto;
+  }
+  /* h5 {
+    font-size: 1.3rem;
+  } */
+  h4 {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  .highlight {
+    font-size: 15px;
+  }
+  .raised-box .card {
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+  }
+  .invite .card {
+    min-height: 96%;
+  }
+  .raised-box .card-header h5 {
+    font-size: 25px;
+  }
+  .raised-box .card-header p {
+    font-size: 18px;
+  }
+  .raised-box .card-body p {
+    font-size: 18px;
+  }
+  .raised-box .card-body li {
+    padding: 5px;
+    font-size: 24px;
+  }
+  button.btn-primary.btn-lg {
+    font-size: 15px;
+  }
+  .lbcard-radio + label {
+    font-size: 14px;
+  }
+  .radiobox:not(.quest) {
+    height: 33px;
+    line-height: 29px;
+  }
+  .card .stat-label.sm {
+    font-size: 17px;
+  }
+  .list-league {
+    font-size: 16px;
+  }
+  .list-league .rank {
+    font-size: 17px;
+  }
+  .btn-primary {
+    font-size: 17px;
+    padding: 5px 18px;
+  }
+  .btn-secondary {
+    font-size: 16px;
+  }
+  .btn-outline-primary {
+    font-size: 16px;
+  }
+  .lead-boards a {
+    font-size: 16px;
+  }
+  .table-homeactivity th {
+    font-size: 17px;
+  }
+  .table-homeactivity td {
+    font-size: 15px;
+  }
+  .invitetitle h5 {
+    font-size: 29px;
+  }
+  .invitetitle p {
+    font-size: 19px;
+  }
+  .invitetitle li {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .helpbox p,
+  .helpbox strong {
+    font-size: 20px;
+  }
+  .card .icon-stat {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .card .card-body {
+    padding-bottom: 0;
+  }
+  .lead-boards .card {
+    padding-right: 26px;
+  }
+  .row.participant-box {
+    margin-top: 18px;
+  }
+  .welcome-avatar .avatar img {
+    width: 100px;
+  }
+  .welcome-avatar {
+    position: relative;
+  }
+  .user_name {
+    position: absolute;
+    top: 22%;
+    left: 49%;
+  }
+  .user_subtitle {
+    position: absolute;
+    top: 43%;
+    left: 41%;
+  }
+  .welcome-avatar .badge {
+    left: 110px;
+    bottom: 7px;
+    right: unset;
+  }
+  .progress {
+    background-color: #fbe0ee;
+    height: 25px;
+  }
+  .userprogress .progressinfo {
+    bottom: 14px;
+  }
+  .userprogress .icon-flag {
+    font-size: 15px;
+    bottom: 4px;
+  }
+  .user-stat {
+    text-align: center;
+  }
+  .card .stat-number {
+    font-size: 17px;
+  }
+  .lead-boards .radiobox:not(.quest) {
+    height: 31px;
+  }
+  .members-data {
+    display: none;
+  }
+
+  label.wrap {
+    width: 100px;
+    overflow: hidden;
+    height: 50px;
+    position: relative;
+    display: block;
+    margin-right: 15px;
+  }
+
+  select.dropdown {
+    height: 50px;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  label.wrap:after {
+    content: "\f0b0 ";
+    font-family: FontAwesome;
+    color: #000;
+    background-color: #6c7a89;
+    color: #fff;
+    position: absolute;
+    right: 47px;
+    top: 1px;
+    z-index: 1;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    height: 43px;
+    font-size: 20px;
+    padding: 1px;
+    width: 46px;
+    text-align: center;
+    border-radius: 44px;
+    line-height: 43px;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .league-search select {
+    width: 43px;
+    min-width: 0;
+    position: absolute;
+    right: 28px;
+    border: none;
+  }
+  .league-search h3,
+  .league-search input,
+  .league-search .input-group-prepend {
+    margin-top: 0px;
+  }
+
+  .league-search .input-group-prepend1 {
+    position: absolute;
+    right: 3px;
+    top: 0;
+  }
+  .league-search span#basic-addon3 {
+    background: #dc4295;
+    border: none;
+    border-radius: 25px;
+    padding: 13px;
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+}
+  .filter-inner {
+    padding-right: 53px;
+  }
+  .league-search .input-group-prepend {
+    position: absolute;
+    right: 56px;
+    top: 0;
+    z-index: 11;
+  }
+  .input-group-prepend1 i.fa.fa-times {
+    color: #fff;
+    font-size: 18px;
+  }
+  #togcross,
+  #searchtext {
+    display: none;
+  }
+  .league-search input {
+    position: absolute;
+    z-index: 11;
+    right: 52px;
+  }
+  /* myleague */
+  .ml-cardbox h5 {
+    font-size: 1.2rem;
+  }
+  .ml-cardbox strong {
+    font-size: 1.1rem;
+  }
+  .ml-cardbox .greystrip div {
+    font-size: 1rem;
+  }
+  .ml-cardbox .rank,
+  .ml-cardbox .name,
+  .ml-cardbox .km {
+    font-size: 1rem;
+  }
+  .ml-cardbox .leagues a {
+    font-size: 1rem;
+  }
+
+  div#navbarSupportedContent {
+    top: 111px;
+    position: fixed;
+    /* height: 100vh; */
+  }
+  .header .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .collapse-nav{
+    height: 100vh;
+  }
+  .action-main i {
+    font-size: 16px !important;
+}
+.action-main > span {
+  margin: 10px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav-item a{
+    width: 100%;
+  }
+  .raised-box {
+    order: 1;
+  }
+  .welcome-box {
+    order: 2;
+  }
+  .stat-mobile {
+    order: 3;
+  }
+  .badge {
+    order: 4;
+  }
+  .container,
+  .container-fluid {
+    min-width: 100% !important;
+  }
+
+  .action-main i {
+    font-size: 16px !important;
+}
+.action-main > span {
+  margin: 10px;
+}
+
+  /* --------- join league ----------- */
+
+  /* new phase for change -------------------------------------------------------*/
+  div#navbarSupportedContent {
+    padding: 15px;
+    position: absolute;
+    background: #fff;
+    z-index: 222;
+    width: 100%;
+    top: 98px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px #0000001a;
+  }
+  .user-dropmenu {
+    left: -101px;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler i {
+    font-size: 35px;
+    color: black;
+  }
+  .header {
+    height: 100px;
+  }
+  nav {
+    height: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .header #brandlogo img {
+    max-height: 90px;
+  }
+  .header .box-mainnav .main-nav ul li {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .header .box-mainnav .main-nav ul li > a {
+    box-sizing: border-box;
+    padding: 25px 15px;
+    height: 100%;
+    color: #6c7a89;
+    display: flex;
+    align-items: flex-start;
+  }
+  .link-jgpage {
+    display: flex;
+    flex-direction: column;
+  }
+  .japage-text {
+    background: #dfeaf6;
+  }
+  .navtext {
+    font-size: 20px;
+  }
+  .header .justgivingtext {
+    font-size: 20px;
+  }
+  .header .box-mainnav .main-nav ul li.active {
+    background: #dc4295;
+    color: #ffffff;
+  }
+  .header .box-mainnav .main-nav ul li > a .navicon {
+    font-size: 25px;
+    width: 50px;
+    margin-top: 4px;
+  }
+  .header .box-mainnav .main-nav ul {
+    padding-left: 0;
+  }
+  .header {
+    height: 109px;
+  }
+  .header .box-mainnav .main-nav ul li > a {
+    font-size: 23px;
+  }
+  /* .card.home {
+    height: 100%;
+  } */
+  .card .stat-label {
+    font-size: 16px;
+    color: #6c7a89;
+  }
+  .badge {
+    margin-top: 0px;
+  }
+  .badge .card {
+    height: auto;
+  }
+  .badge .card-body {
+    max-height: 290px;
+    overflow: auto;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+ 
+  .raised-box .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .invite .card {
+    min-height: 96%;
+  }
+  .raised-box .card-header h5 {
+    font-size: 35px;
+  }
+  .raised-box .card-header p {
+    font-size: 22px;
+  }
+  .raised-box .card-body p {
+    font-size: 22px;
+  }
+  .raised-box .card-body li {
+    padding: 10px;
+    font-size: 28px;
+  }
+  button.btn-primary.btn-lg {
+    font-size: 15px;
+  }
+  .lbcard-radio + label {
+    font-size: 16px;
+  }
+  .radiobox:not(.quest) {
+    height: 33px;
+    line-height: 29px;
+  }
+  .card .stat-label.sm {
+    font-size: 17px;
+  }
+  .list-league {
+    font-size: 18px;
+  }
+  .list-league .rank {
+    font-size: 19px;
+  }
+  .btn-primary {
+    font-size: 17px;
+    padding: 5px 18px;
+  }
+  .btn-secondary {
+    font-size: 16px;
+  }
+  .btn-outline-primary {
+    font-size: 18px;
+  }
+  .lead-boards a {
+    font-size: 19px;
+  }
+  .table-homeactivity th {
+    font-size: 20px;
+  }
+  .table-homeactivity td {
+    font-size: 18px;
+  }
+  .invitetitle h5 {
+    font-size: 29px;
+  }
+  .invitetitle p {
+    font-size: 19px;
+  }
+  .invitetitle li {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .helpbox p,
+  .helpbox strong {
+    font-size: 23px;
+  }
+  .card .icon-stat {
+    font-size: 39px;
+    padding: 10px;
+  }
+  .card .card-body {
+    padding-bottom: 0;
+  }
+  .lead-boards .card {
+    padding-right: 26px;
+  }
+  .row.participant-box {
+    margin-top: 18px;
+  }
+  .welcome-avatar .avatar img {
+    width: 130px;
+  }
+  .welcome-avatar {
+    position: relative;
+  }
+  .user_name {
+    position: absolute;
+    top: 22%;
+    left: 38%;
+  }
+  .user_subtitle {
+    position: absolute;
+    top: 49%;
+    left: 36%;
+  }
+  .welcome-avatar .badge {
+    left: 130px;
+    bottom: 7px;
+    right: unset;
+  }
+  .progress {
+    background-color: #fbe0ee;
+    height: 25px;
+  }
+  .userprogress .progressinfo {
+    bottom: 14px;
+  }
+  .userprogress .icon-flag {
+    font-size: 15px;
+    bottom: 4px;
+  }
+  .user-stat {
+    text-align: center;
+  }
+  .card .stat-number {
+    font-size: 20px;
+  }
+  .lead-boards .radiobox:not(.quest) {
+    height: 31px;
+  }
+
+  /* filter serch */
+
+  label.wrap {
+    width: 100px;
+    overflow: hidden;
+    height: 50px;
+    position: relative;
+    display: block;
+    margin-right: 15px;
+  }
+
+  select.dropdown {
+    height: 50px;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  label.wrap:after {
+    content: "\f0b0 ";
+    font-family: FontAwesome;
+    color: #000;
+    background-color: #6c7a89;
+    color: #fff;
+    position: absolute;
+    right: 47px;
+    top: 1px;
+    z-index: 1;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    height: 43px;
+    font-size: 20px;
+    padding: 1px;
+    width: 46px;
+    text-align: center;
+    border-radius: 44px;
+    line-height: 43px;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .league-search select {
+    width: 43px;
+    min-width: 0;
+    position: absolute;
+    right: 28px;
+    border: none;
+  }
+  .league-search h3,
+  .league-search input,
+  .league-search .input-group-prepend {
+    margin-top: 0px;
+  }
+
+  .league-search .input-group-prepend1 {
+    position: absolute;
+    right: 3px;
+    top: 0;
+  }
+  .league-search span#basic-addon3 {
+    background: #dc4295;
+    border: none;
+    border-radius: 25px;
+    padding: 13px;
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+}
+  .filter-inner {
+    padding-right: 53px;
+  }
+  .league-search .input-group-prepend {
+    position: absolute;
+    right: 56px;
+    top: 0;
+    z-index: 11;
+  }
+  .input-group-prepend1 i.fa.fa-times {
+    color: #fff;
+    font-size: 18px;
+  }
+  #togcross,
+  #searchtext {
+    display: none;
+  }
+  .league-search input {
+    position: absolute;
+    z-index: 11;
+    right: 52px;
+  }
+  /* myleague */
+  .ml-cardbox h5 {
+    font-size: 1.4rem;
+  }
+  .ml-cardbox strong {
+    font-size: 1.3rem;
+  }
+  .ml-cardbox .greystrip div {
+    font-size: 1.2rem;
+  }
+  .ml-cardbox .rank,
+  .ml-cardbox .name,
+  .ml-cardbox .km {
+    font-size: 1.2rem;
+  }
+  .ml-cardbox .leagues a {
+    font-size: 1.1rem;
+  }
+
+  div#navbarSupportedContent {
+    top: 111px;
+    position: fixed;
+    /* height: 100vh; */
+  }
+  .header .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .collapse-nav{
+    height: 100vh;
+  }
+}
+
+/* new phase closed ----------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-item a{
+    width: 100%;
+  }
+  /* final touch css ----------------------------------------------- */
+  /* .header {
+    height: 109px;
+  }
+  .header .box-mainnav .main-nav ul li > a {
+    font-size: 23px;
+  } */
+
+  /* .navbar-nav {
+    height: 100vh !important;
+  }
+  .header .box-mainnav .main-nav ul li {
+    height: 88px;
+} */
+  div#navbarSupportedContent {
+    padding: 15px;
+    background: #fff;
+    width: 100%;
+    z-index: 222;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px #0000001a;
+    top: 111px;
+    position: fixed;
+    /* height: 100vh; */
+    left: 0;
+  }
+  .collapse-nav{
+    height: 100vh;
+  }
+
+  
+  .user-dropmenu {
+    left: -101px;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler i {
+    font-size: 35px;
+    color: black;
+  }
+  .header {
+    height: 100px;
+  }
+  nav {
+    height: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .header #brandlogo img {
+    max-height: 90px;
+  }
+  .header .box-mainnav .main-nav ul li {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .header .box-mainnav .main-nav ul li > a {
+    box-sizing: border-box;
+    padding: 25px 15px;
+    height: 100%;
+    color: #6c7a89;
+    display: flex;
+    align-items: flex-start;
+  }
+  .link-jgpage {
+    display: flex;
+    flex-direction: column;
+  }
+  .japage-text {
+    background: #dfeaf6;
+  }
+  .navtext {
+    font-size: 20px;
+  }
+  .header .justgivingtext {
+    font-size: 20px;
+  }
+  .header .box-mainnav .main-nav ul li.active {
+    background: #dc4295;
+    color: #ffffff;
+  }
+  .header .box-mainnav .main-nav ul li > a .navicon {
+    font-size: 25px;
+    width: 50px;
+    margin-top: 4px;
+  }
+  .header .box-mainnav .main-nav ul {
+    padding-left: 0;
+  }
+  .header {
+    height: 109px;
+  }
+  .header .box-mainnav .main-nav ul li > a {
+    font-size: 23px;
+  }
+  
+  /* .card.home {
+    height: 100%;
+    min-height: 290px;
+  } */
+  .card .stat-label {
+    font-size: 21px;
+    color: #6c7a89;
+  }
+  .badge {
+    margin-top: 24px;
+  }
+  h5 {
+    font-size: 2.1rem;
+  }
+  .highlight {
+    font-size: 21px;
+  }
+  .raised-box .card {
+    min-height: 100%;
+  }
+  .invite .card {
+    min-height: 96%;
+  }
+  .raised-box .card-header h5 {
+    font-size: 56px;
+  }
+  .raised-box .card-header p {
+    font-size: 30px;
+  }
+  .raised-box .card-body p {
+    font-size: 31px;
+  }
+  .raised-box .card-body li {
+    padding: 10px;
+    font-size: 36px;
+  }
+  button.btn-primary.btn-lg {
+    font-size: 22px;
+  }
+  .lbcard-radio + label {
+    font-size: 26px;
+  }
+  .radiobox:not(.quest) {
+    height: 33px;
+    line-height: 29px;
+  }
+  .card .stat-label.sm {
+    font-size: 24px;
+  }
+  .list-league {
+    font-size: 26px;
+  }
+
+  .btn-primary {
+    font-size: 22px;
+    padding: 5px 18px;
+  }
+  .btn-secondary {
+    font-size: 21px;
+  }
+  .btn-outline-primary {
+    font-size: 24px;
+  }
+  .lead-boards a {
+    font-size: 24px;
+  }
+  .table-homeactivity th {
+    font-size: 25px;
+  }
+  .table-homeactivity td {
+    font-size: 23px;
+  }
+  .invitetitle h5 {
+    font-size: 36px;
+  }
+  .invitetitle p {
+    font-size: 24px;
+  }
+  .invitetitle li {
+    font-size: 36px;
+    padding: 10px;
+  }
+  .helpbox p,
+  .helpbox strong {
+    font-size: 26px;
+  }
+
+  /* league detail and join league */
+  .page-heading h3 {
+    font-size: 27px;
+  }
+  #table-wrapper th {
+    font-size: 26px;
+  }
+  #table-wrapper td {
+    font-size: 23px;
+  }
+  #table-wrapper img {
+    width: 40px;
+    height: 40px;
+  }
+  #table-wrapper a {
+    font-size: 23px;
+  }
+  .table-more a {
+    font-size: 25px;
+  }
+
+  /* myleague */
+  .ml-cardbox h5 {
+    font-size: 1.4rem;
+  }
+  .ml-cardbox strong {
+    font-size: 1.3rem;
+  }
+  .ml-cardbox .greystrip div {
+    font-size: 1.2rem;
+  }
+  .ml-cardbox .rank,
+  .ml-cardbox .name,
+  .ml-cardbox .km {
+    font-size: 1.2rem;
+  }
+  .ml-cardbox .leagues a {
+    font-size: 1.2rem;
+  }
+
+  /* final touch css close ----------------------------------------------- */
+    /* ----------- media  header*/
+  
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .nav-item a{
+    width: 100%;
+  }
+  .page-heading h3 {
+    font-size: 35px;
+  }
+  #table-wrapper th {
+    font-size: 26px;
+  }
+  #table-wrapper td {
+    font-size: 23px;
+  }
+  #table-wrapper img {
+    width: 40px;
+    height: 40px;
+  }
+  #table-wrapper a {
+    font-size: 23px;
+  }
+  .table-more a {
+    font-size: 25px;
+  }
+
+  /* myleague */
+  .ml-cardbox h5 {
+    font-size: 1.4em;
+  }
+  .ml-cardbox strong {
+    font-size: 1.3em;
+  }
+  .ml-cardbox .greystrip div {
+    font-size: 1.3em;
+  }
+  .ml-cardbox .rank,
+  .ml-cardbox .name,
+  .ml-cardbox .km {
+    font-size: 1.1rem;
+  }
+  .ml-cardbox .leagues a {
+    font-size: 1.3rem;
+  }
+  /* ----------- media  header*/
+  .header .box-mainnav .main-nav ul{
+    padding: 0;
+  }
+  .header .box-mainnav .main-nav ul li > a{
+    padding: 0;
+  }
+  .header .container{padding: 0;}
+  .header .box-mainnav .main-nav ul li{
+    height: 100px;
+    padding: 23px 5px;
+  }
+  .dropdown-user img{
+    width: 60px;
+    height: 60px;
+    margin-right: 2px;
+  }
+  .collapse-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  /* .ml-cardbox h5 {
+    font-size: 1rem;
+  }
+  .ml-cardbox strong {
+    font-size: 1.3em;
+  }
+  .ml-cardbox .greystrip div {
+    font-size: 1.3em;
+  }
+  .ml-cardbox .rank,
+  .ml-cardbox .name,
+  .ml-cardbox .km {
+    font-size: 1.1rem;
+  }
+  .ml-cardbox .leagues a {
+    font-size: 1.3rem;
+  } */
+  .collapse-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=media.css.map */

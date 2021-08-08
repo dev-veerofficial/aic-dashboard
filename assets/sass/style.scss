@@ -1,0 +1,696 @@
+@import "_variables";
+@import "_mixins";
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fbfbfb;
+}
+
+.border {
+    @include border;
+}
+
+.noborder {
+    border: none;
+}
+.p0 {
+    @include p0;
+}
+.m0 {
+    @include m0;
+}
+.nowrap {
+    flex-wrap: nowrap;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    color: $primary;
+    &:hover {
+        text-decoration: none;
+        color: $primary-matt;
+    }
+}
+
+.box-homestats {
+    flex-wrap: nowrap;
+    .card {
+        padding: 10px 25px;
+    }
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.btn-primary {
+    background-color: $primary;
+    border: none;
+}
+
+button.btn-primary.btn-lg {
+    border-radius: 50px;
+    padding: 8px 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn-outline-primary {
+    border-color: $primary;
+    color: $primary;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $primary;
+        color: $white;
+        border: none;
+    }
+}
+
+.btn-secondary {
+    background-color: $grey;
+}
+
+.card.home {
+    padding: 0;
+    .row.home {
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+}
+.card {
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #0000001a;
+    border: none;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .card-header {
+        padding: 5px 10px;
+        background: transparent;
+        color: $grey;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-heading i {
+        &:before {
+            color: $grey;
+        }
+    }
+
+    .card-body {
+        font-size: 14px;
+    }
+
+    .card-footer {
+        background: transparent;
+        border: none;
+        padding: 10px 0 0;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .icon-stat {
+        background: $primary-light;
+        color: $primary-matt;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+    }
+
+    .stat-number {
+        @include break;
+        font-family: nexa-bold;
+        font-size: 32px;
+    }
+
+    .stat-label {
+        font-size: 16px;
+        color: $grey;
+        &.sm {
+            font-size: 14px;
+        }
+    }
+}
+
+li {
+    list-style-type: none;
+}
+ul {
+    @include p0;
+    margin-bottom: 0;
+}
+
+.row.headerow {
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #fff;
+    // @include oh;
+
+    // Logo
+    #brandlogo {
+        img {
+            max-height: 90px;
+        }
+    }
+
+    // Main Nav
+    .box-mainnav {
+        @include m0;
+        @include p0;
+        @include bz;
+        .main-nav {
+            ul {
+                display: flex;
+                flex-wrap: nowrap;
+                li {
+                    text-align: center;
+                    list-style: none;
+                    // background-color: #666;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    > a {
+                        .navicon {
+                            font-size: 18px;
+                        }
+                        box-sizing: border-box;
+                        padding: 25px 15px;
+                        height: 100%;
+                        color: $grey;
+                        &.active {
+                            .navicon:before {
+                                color: #fff;
+                            }
+                            background: $primary;
+                            color: $white;
+                        }
+                        &:hover {
+                            text-decoration: none;
+                            &:not(.active) {
+                                .navicon:before {
+                                    color: $primary;
+                                }
+                                color: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+
+            span.navicon {
+                &:after {
+                    white-space: pre;
+                    content: "\a";
+                }
+            }
+        }
+    }
+    // Right Nav
+    .box-rightnav {
+        @include p0;
+        height: 100%;
+        .right-nav {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                li {
+                    a.link-jgpage {
+                        display: inline-block;
+                        &:hover {
+                            color: $primary;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .justgivingtext {
+        color: $dark;
+        &:after {
+            white-space: pre;
+            content: "\a";
+        }
+    }
+}
+
+span.user-name:after {
+    content: "\a";
+    white-space: pre;
+}
+
+span.user-name {
+    i {
+        font-size: 8px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+.box-username {
+    margin-left: 10px;
+}
+
+.usermenu {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.user-type {
+    font-size: 14px;
+    color: $grey;
+    display: inline-block;
+}
+
+.header-avatar {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid $grey-light;
+}
+
+.welcome .highlight {
+    background-color: #dfeaf6;
+}
+
+.welcome-avatar {
+    @include oh;
+    padding: 20px;
+    max-width: 100%;
+    position: relative;
+    .avatar img {
+        max-width: 100%;
+    }
+    .avatar-overlay {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 5%, rgba(187, 21, 138, 0) 50%);
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        bottom: 0px;
+        max-height: 125px;
+    }
+    .badge {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        img {
+            max-width: 60px;
+        }
+    }
+}
+
+table {
+    td {
+        border-top: none !important;
+        padding: 5px !important;
+    }
+
+    th {
+        padding-bottom: 5px !important;
+        border-bottom: none !important;
+    }
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background: $primary-lightest;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background: $white;
+}
+
+.table-homeactivity table {
+    margin-bottom: 0 !important;
+}
+.tbody-wrapper {
+    max-height: 190px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.badge-show {
+    padding: 8px;
+}
+
+.list-league {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+    padding: 10px;
+    font-size: 16px;
+
+    .rank {
+        font-weight: bold;
+        font-size: 28px;
+        color: $grey;
+    }
+
+    .row {
+        align-items: center;
+    }
+}
+
+#chart {
+    max-width: none;
+    width: 100%;
+}
+
+.radiobox {
+    background: $primary-light;
+    border-radius: 20px;
+    height: 25px;
+    line-height: 22px;
+}
+
+.lbcard-radio + label {
+    padding: 1px 12px;
+
+    font-size: 14px;
+    color: $primary-dark;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.lbcard-radio {
+    width: 0;
+    height: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.lbcard-radio:checked + label {
+    background: $primary-light;
+    border-radius: 20px;
+    color: $white;
+    background: $primary;
+}
+
+.runnername {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    .avatar {
+        margin-right: 10px;
+    }
+}
+
+i.icon-arrow-right {
+    font-size: 10px;
+}
+
+.greystrip {
+    background-color: $grey-light;
+    color: $grey;
+    font-size: 14px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.card-footer.leagues {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 0;
+}
+
+a.grey {
+    color: $grey;
+    vertical-align: middle;
+}
+
+.page-header {
+    padding: 30px 0 20px;
+    .page-heading {
+        .pageicon:before {
+            color: $primary;
+        }
+        color: $primary;
+    }
+}
+
+.pagetable {
+    width: 100%;
+    thead {
+        background-color: $tablegrey;
+        font-size: 16px;
+        color: #dfeaf6;
+        th {
+            font-weight: normal;
+            padding-top: 10px;
+            padding-bottom: 10px !important;
+        }
+    }
+}
+
+.progress {
+    background-color: $primary-light;
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: $primary;
+    border-radius: 0 25px 25px 0;
+}
+
+.userprogress {
+    position: relative;
+    bottom: -3px;
+    .icon-flag {
+        font-size: 18px;
+        position: absolute;
+        right: 15px;
+        bottom: 5px;
+    }
+    .progressinfo {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        font-weight: bold;
+        color: #f6d9e9;
+    }
+}
+
+.profile-nav {
+    margin-top: 15px;
+    li {
+        a {
+            width: 100%;
+            padding: 5px 10px;
+            display: inline-block;
+            &.active {
+                background-color: $primary;
+                color: #fff;
+                i:before {
+                    color: #fff;
+                }
+            }
+            &:hover:not(.active) {
+                background-color: $primary-lightest;
+            }
+            i:before {
+                color: $primary-matt;
+            }
+        }
+    }
+}
+
+ul.userdetails {
+    li {
+        display: flex;
+        div {
+            width: 150px;
+            margin-top: 10px;
+            color: $grey;
+        }
+    }
+}
+
+.cstm-input {
+    input,
+    select {
+        border-radius: 25px;
+        &:focus {
+            border: 1px solid $primary-light;
+            box-shadow: 0 0 0 0.2rem $primary-light;
+        }
+    }
+    label {
+        margin-bottom: 5px;
+        color: $grey;
+        font-size: 12px;
+    }
+}
+
+// .form-check-inline .form-check-input{
+//     margin-top: -4px;
+// }
+
+.form-check-label {
+    font-size: 14px !important;
+    color: #333333 !important;
+    margin-top: 6px;
+}
+
+.modal-footer.default {
+    justify-content: center;
+}
+
+.modal {
+    background: rgba(255, 255, 255, 0.9);
+}
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #0000001a;
+    border: none;
+}
+
+.success-icon {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.ico-xl {
+    font-size: 60px;
+}
+
+.success-msg {
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0 40px;
+}
+
+hr.sep {
+    width: 90%;
+    margin: 20px auto;
+    border-top: 1px solid $grey-light;
+}
+
+h5.primary {
+    color: $primary;
+}
+
+.form-group.cstm-input.leaguelink {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.Welcome {
+    margin-top: 10px;
+}
+
+.welcome-data {
+    border-left: 1px solid rgba(112, 112, 112, 0.1);
+}
+.box-userstat {
+    margin: 20px auto;
+}
+.highlight {
+    background: $grey-light;
+    padding: 5px 15px;
+    color: $grey;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.border-left {
+    border-left: 1px solid $grey-light;
+}
+
+.card.home,
+.card.activities,
+.card.badges {
+    height: 290px;
+}
+
+.table-homeactivity th,
+.table-homeactivity td {
+    width: 70px;
+}
+
+span.action-edit {
+    margin-right: 10px;
+    color: #d18641;
+}
+span.action-delete {
+    color: red;
+}
+
+span.action-edit,
+span.action-delete {
+    i {
+        font-size: 12px;
+    }
+}
+
+.dropdown-menu.show {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 30px #0000001a;
+    top: 30px !important;
+    i {
+        display: inline-block;
+        margin-right: 5px;
+        &:before {
+            color: #333;
+        }
+    }
+
+    a:hover{
+        background-color: $primary-lightest;
+        color: $primary;
+
+        i:before{
+            color: $primary;
+        }
+    }
+}

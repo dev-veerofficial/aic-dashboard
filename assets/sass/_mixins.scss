@@ -1,0 +1,12 @@
+@mixin border {border: 1px solid #000;}
+@mixin bg {background-color: $tablegrey;}
+@mixin m0 {margin: 0;}
+@mixin p0 {padding: 0;}
+@mixin bz {box-sizing: border-box;}
+@mixin oh {overflow: hidden;}
+@mixin break {
+    &:after{
+        content: '\a';
+        white-space: pre;
+    }
+}

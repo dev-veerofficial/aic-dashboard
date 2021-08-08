@@ -1,0 +1,24 @@
+// Color Variables
+$primary: #DC4295;
+$primary-matt: #D65B9E;
+$primary-light: #FBE0EE;
+$primary-lightest: #FBF5F8;
+$primary-dark: #A57790;
+$grey: #6C7A89;
+$grey-light: #F2F6FA;
+$dark: #333333;
+$yellow: #FFD401;
+$success: #187B1E;
+$white: #ffffff;
+$tablegrey: #666666;
+
+// Font variables
+@font-face {
+    font-family: nexa-bold;
+    src: url(../fonts/nexa/Nexa-bold.otf);
+  }
+@font-face {
+    font-family: nexa-book;
+    src: url(../fonts/nexa/NexaBook.otf);
+  }
+// font-family: 'Roboto', sans-serif;

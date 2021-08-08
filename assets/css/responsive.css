@@ -1,0 +1,233 @@
+@media screen and (max-width: 413px) {
+    .amt h5 {
+        font-size: 2rem;
+    }
+    .welcome.mob {
+        display: none;
+    }
+    .avatarbox {
+        display: none;
+    }
+    .wlcmobox {
+        width: 100%;
+        min-width: 100%;
+        text-align: center;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    .action-text {
+        display: none;
+    }
+
+    .action-main > span {
+        margin-left: 10px;
+    }
+    .action-main i {
+        font-size: 16px !important;
+    }
+    .icon-stat {
+        display: none !important;
+    }
+    .data-stat {
+        width: 100%;
+        min-width: 100%;
+    }
+    .card .stat-number{
+        font-size: 20px;
+    }
+    /* user profile */
+    .userprofile img{
+        width: auto;
+        min-width: 0;
+        max-width: none;
+    }
+    .col-md-4.userprofile + h5 {
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+    .profile-nav li a{
+        padding: 10px;
+    }
+    .profile-nav li a i{
+        margin-right:10px
+    }
+    ul.userdetails li {
+        flex-direction: column;
+    }
+    ul.userdetails li div {
+        min-width: 100%;
+    }
+    ul.userdetails li div:first-child strong {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    ul.userdetails li div:nth-child(even) {
+        font-size: 16px;
+        font-weight: normal;
+        color: #111111;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 575px) {
+    .welcome-avatar .badge {
+        left: 60px;
+        bottom: -13px;
+        right: unset;
+        height: 50px;
+        width: 50px;
+    }
+    .user-stat h4 {
+        font-size: 1.6rem;
+    }
+    .welcome-avatar .badge img {
+        max-width: 100%;
+    }
+    .welcome-avatar .avatar-overlay {
+        top: 60%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div#wrapper {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .card .stat-label {
+        font-size: 16px;
+    }
+    .card .stat-number {
+        font-size: 24px;
+    }
+    .raised-box .card {
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .raised-box {
+        margin-top: 15px;
+    }
+    .raised-box h5 {
+        margin-bottom: 0;
+    }
+    .card.home,
+    .card.badges {
+        height: auto;
+        min-height: 0;
+    }
+    .userprogress {
+        bottom: 0;
+    }
+    .userprogress .progressinfo {
+        font-size: 16px;
+    }
+    .highlight {
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .tbody-wrapper {
+        max-height: 260px;
+    }
+    .welcome-avatar .avatar-overlay {
+        top: 90px;
+    }
+    .list-league {
+        font-size: 18px;
+    }
+
+    .helpbox p,
+    .helpbox strong {
+        font-size: 20px;
+    }
+    .card-header h5 {
+        font-size: 1.5rem;
+    }
+
+    .lead-boards a,
+    .btn-primary,
+    .btn-secondary,
+    .btn-outline-primary,
+    .invitetitle p {
+        font-size: 16px;
+    }
+    .card .stat-label.sm {
+        font-size: 16px;
+    }
+    .invitetitle li {
+        padding: 5px !important;
+    }
+    .lbcard-radio + label {
+        font-size: 16px;
+        padding: 2px 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px){
+    .raised-box .card{
+        height: auto;
+    }
+    .highlight {
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .welcome-box {
+        order: 2;
+    }
+    .raised-box {
+        order: 1;
+    }
+    .badge {
+        order: 3;
+    }
+    h5 {
+        font-size: 2.5rem;
+    }
+    .raised-box {
+        margin-top: 0;
+    }
+    .raised-box .card {
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card .stat-label {
+        font-size: 15px;
+    }
+    .welcome-avatar .avatar-overlay {
+        top: 105px;
+    }
+
+    .log-active {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1470px) {
+    .welcome-box {
+        order: 1;
+    }
+    .amt {
+        padding: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .lbcard-radio + label {
+        font-size: 15px;
+        padding: 2px 10px;
+    }
+    .card-header h5 {
+        font-size: 1.25rem;
+    }
+    .list-league {
+        font-size: 16px;
+    }
+    .invite-card img{
+        max-width: 74%;
+    }
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bs4-extended.css">
+        <link rel="stylesheet" href="assets/lib/icomoon/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--icomoon-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media.css">
+        <title>Dashboard | 100KM in 30 Days</title>
+    </head>
+
+<body>
+    <!-- sass --watch scss:css -->
+    <div id="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 header pl-0 pr-0">
+                    <div class="container">
+                        <header>
+                            <nav class="navbar navbar-expand-lg navbar-light  box-mainnav">
+
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <!-- <span class="navbar-toggler-icon"></span> -->
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                                <a class="navbar-brand" href="#">
+                                    <div id="brandlogo">
+                                        <img src="assets/images/brand-logo.png" alt="">
+                                    </div>
+                                </a>
+                                <!-- for mobile dropdow -->
+                                <li class="nav-item dropdown d-lg-none">
+                                    <a class="nav-link dropdown-user" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div class=""><img src="assets/images/niall.jpg" class="img-fluid" alt=""></div>
+                                    </a>
+                                    <div class="dropdown-menu user-dropmenu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="profile.html"><i class="icon-user pr-1"></i>View
+                                            Profile</a>
+                                        <a class="dropdown-item" href="edit-profile.html"><i
+                                                class="icon-edit pr-1"></i>Edit
+                                            Profile</a>
+                                        <a class="dropdown-item" href="change-password.html"><i
+                                                class="icon-lock pr-1"></i>Change Password</a>
+                                        <a class="dropdown-item" href="#"><i class="icon-logout pr-1"></i>Logout</a>
+                                    </div>
+                                </li>
+
+                                <div class="collapse navbar-collapse main-nav" id="navbarSupportedContent">
+                                    <div class="collapse-nav">
+                                        <ul class="navbar-nav mr-auto">
+                                            <li class="nav-item active">
+                                                <a href="index.html" class="nav-link">
+                                                    <span class="navicon icon-dashboard"></span>
+                                                    <span class="navtext">Dashboard</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="my-leagues.html" class="nav-link">
+                                                    <span class="navicon icon-add"></span>
+                                                    <span class="navtext">My League</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javasctipt:void(0);" class="nav-link">
+                                                    <span class="navicon icon-add"></span>
+                                                    <span class="navtext">Create League</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="join-leagues.html" class="nav-link">
+                                                    <span class="navicon icon-join"></span>
+                                                    <span class="navtext">Join League</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!--  -->
+                                        <ul class="navbar-navs">
+                                            <li class="nav-item text-left japage-text">
+
+                                                <a class="link-jgpage nav-link" href="javascript:void(0);">
+                                                    <span class="justgivingtext"> <i class="icon-link"></i> Link to your
+                                                    </span>
+                                                    <span class="jglogo"><img src="assets/images/logo-justgiving.png"
+                                                            alt="">
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item dropdown text-left d-none d-lg-block">
+                                                <a class="nav-link dropdown-user" href="#" id="navbarDropdown" role="button"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <div class=""><img src="assets/images/niall.jpg" class="img-fluid"
+                                                            alt=""></div>
+                                                    <div>
+                                                        <span class="dropdown-toggle">Erik Hudson</span><br>
+                                                        <span class="dropdown-sub">Runner</span>
+                                                    </div>
+                                                </a>
+                                                <div class="dropdown-menu user-dropmenu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item" href="profile.html"><i
+                                                            class="icon-user pr-1"></i>View
+                                                        Profile</a>
+                                                    <a class="dropdown-item" href="edit-profile.html"><i
+                                                            class="icon-edit pr-1"></i>Edit
+                                                        Profile</a>
+                                                    <a class="dropdown-item" href="change-password.html"><i
+                                                            class="icon-lock pr-1"></i>Change Password</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="icon-logout pr-1"></i>Logout</a>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                   </div>
+                                </div>
+                            </nav>
+                        </header>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Stats -->
+        <div class="container">
+            <div class="page-header">
+
+            </div>
+            <!-- Leaderboards -->
+            <div class="row">
+                <!-- board  -->
+                <div class="col-12 col-sm-5 col-md-5 col-lg-4 col-xl-4 col-xxl-3 offset-lg-1 offset-xl-1 offset-xxl-2">
+                    <div class="card px-0">
+                        <div class="box-userintro text-center">
+                            <div class="userprofile">
+                                <div class="avatar">
+                                    <img class="userpic" src="assets/images/avatar.png" alt="">
+                                    <div class="btn-dpupload d-flex align-items-center justify-content-center txt-18"> <a href="javascript:void(0);"> <i class="icon-camera"></i> </a> </div>
+                                </div>
+                                <input class="file-dpupload" type="file" accept="image/*" />                    
+                            </div>
+                            <h5 class="m0">Erik Hudson</h5>
+                            <div class="stat-label">Runner</div>
+                        </div>
+                        <div class="profile-nav">
+                            <ul>
+                                <li><a href="profile.html"><i class="icon-user"></i> View Profile</a></li>
+                                <li><a href="edit-profile.html" class="active"><i class="icon-edit"></i> Edit Profile</a></li>
+                                <li><a href="change-password.html"><i class="icon-lock"></i> Change Password</a></li>
+                                <li><a href="#"><i class="icon-logout"></i> Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-7 col-md-7 col-lg-6 col-xxl-5">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4><i class="icon-edit"></i> Edit Profile </h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group cstm-input">
+                                        <label for="firstname">First Name</label>
+                                        <input type="text" class="form-control" name="firstname" id="firstname"
+                                            placeholder="Enter your first name" value="Niall">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group cstm-input">
+                                        <label for="firstname">Last Name</label>
+                                        <input type="text" class="form-control" name="firstname" id="firstname"
+                                            placeholder="Enter your first name" value="Carroll">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group cstm-input">
+                                        <label for="firstname">Email Address</label>
+                                        <input type="text" class="form-control" name="firstname" id="firstname"
+                                            placeholder="Enter your last name" value="niall@aquaweb.ie">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group cstm-input">
+                                        <label for="firstname">Participant Type</label>
+                                        <select class="form-control" name="firstname" id="firstname">
+                                            <option value="">Runner</option>
+                                            <option value="">Walker</option>
+                                            <option value="">Runner/Walker</option>
+                                            <option value="">Wheelchair</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group cstm-input">
+                                        <label for="firstname">Contact Number</label>
+                                        <input type="text" class="form-control" name="firstname" id="firstname"
+                                            placeholder="Enter your Contact Number"> 
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group cstm-input">
+                                        <label for="firstname">Country</label>
+                                        <select class="form-control" name="firstname" id="firstname">
+                                            <option value="">Ireland</option>
+                                            <option value="">India</option>
+                                            <option value="">USA</option>
+                                            <option value="">Dubai</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center mt-2">
+                                    <button class="btn btn-lg btn-primary" disabled>Update Profile</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Ends here -->
+        </div>
+        <!--  -->
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

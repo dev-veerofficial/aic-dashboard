@@ -1,0 +1,12 @@
+@media (min-width: 1360px){
+    .container{
+        width: 1640px;
+    }
+}
+
+@media screen and (max-width:640px){
+    header{
+        display: none;
+    }
+
+}
