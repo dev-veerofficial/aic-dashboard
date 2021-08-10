@@ -9,8 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bs4-extended.css">
@@ -41,14 +41,15 @@
                                 </button>
                                 <a class="navbar-brand" href="index.html">
                                     <div id="brandlogo">
-                                        <img src="assets/images/brand-logo.png" alt="">
+                                        <img src="assets/images/brand-logoz.png" alt="">
                                     </div>
                                 </a>
                                 <!-- for mobile dropdow -->
                                 <li class="nav-item dropdown d-lg-none">
                                     <a class="nav-link dropdown-user" href="#" id="navbarDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <div class=""><img src="assets/images/avatar.png" class="img-fluid" alt=""></div>
+                                        <div class=""><img src="assets/images/avatar.png" class="img-fluid" alt="">
+                                        </div>
                                     </a>
                                     <div class="dropdown-menu user-dropmenu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="profile.html"><i class="icon-user pr-1"></i>View
@@ -75,20 +76,20 @@
                                             <li class="nav-item">
                                                 <a href="my-leagues.html" class="nav-link">
                                                     <span class="navicon icon-list"></span>
-                                                    <span class="navtext">My Leagues</span>
+                                                    <span class="navtext">My Leaderboards</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="javasctipt:void(0);" class="nav-link" data-toggle="modal"
                                                     data-target="#createLeague">
                                                     <span class="navicon icon-add"></span>
-                                                    <span class="navtext">Create League</span>
+                                                    <span class="navtext">Create Leaderboard</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="join-leagues.html" class="nav-link">
                                                     <span class="navicon icon-join"></span>
-                                                    <span class="navtext">Join League</span>
+                                                    <span class="navtext">Join Leaderboard</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item d-block d-lg-none">
@@ -117,7 +118,8 @@
                                                     <!-- <div class="header-user-pic"><img src="assets/images/niall.jpg" class="img-fluid" 
                                                             alt=""></div>
                                                      -->
-                                                            <div class="header-user-pic" style="background-image: url(assets/images/avatar.png);"></div>
+                                                    <div class="header-user-pic"
+                                                        style="background-image: url(assets/images/avatar.png);"></div>
                                                     <div>
                                                         <span class="dropdown-toggle">Niall Carroll</span><br>
                                                         <span class="dropdown-sub"> Runner</span>
@@ -138,7 +140,8 @@
                                                 </div>
                                             </li>
                                             <li class="nav-item d-none d-md-inline">
-                                                <a class="link-jgpage nav-link d-flex align-items-center" href="javascript:void(0);">
+                                                <a class="link-jgpage nav-link d-flex align-items-center"
+                                                    href="javascript:void(0);">
                                                     <i class="icon-logout"></i>
                                                 </a>
                                             </li>
@@ -237,8 +240,8 @@
                                     <div class="col-8 wlcmobox">
                                         <div class="Welcome mob d-block d-sm-none">
                                             <h4 class=>Welcome Back, Niall</h4>
-                                            <span class="highlight"> <span class="txt d-none d-md-inline"> You're participanting as a </span>
-                                                Runner</span>
+                                            <!-- <span class="highlight"> <span class="txt d-none d-md-inline"> You're participanting as a </span>
+                                                Runner</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -246,8 +249,8 @@
                             <div class="col-12 col-sm-8 welcome-data">
                                 <div class="Welcome tab d-none d-sm-block">
                                     <h4 class=>Welcome Back, Niall !</h4>
-                                    <span class="highlight d-none d-sm-inline-block">You're participating as a
-                                        Runner</span>
+                                    <!-- <span class="highlight d-none d-sm-inline-block">You're participating as a
+                                        Runner</span> -->
                                 </div>
                                 <div class="row box-userstat">
                                     <div class="col-6 col-md-6 user-stat">
@@ -263,6 +266,10 @@
                                     <div class="col-lg-12 text-center log-active">
                                         <button class="btn btn-lg btn-primary " data-toggle="modal"
                                             data-target="#logActivity">Log Activity</button>
+                                    </div>
+                                    <div class="col-lg-12 text-center log-notice alert alert-warning mb-0 px-1">
+                                        Please log your activity by midnight each day. <br>
+                                        Last cycle must be logged by <strong> Sunday August 22nd, 3pm </strong>
                                     </div>
                                 </div>
                             </div>
@@ -288,13 +295,14 @@
                                 <h5>€0.00</h5>
                                 <p> <strong> <span>Raised by</span> Your Supporters</strong></p>
                             </div>
-                            <div class="col-sm-6 col-md-6 col-xxl-12 text-center py-3 d-flex align-items-center justify-content-center">                                
-                                    <button class="btn btn-lg btn-primary">Activate Your Account</button>                                
+                            <div
+                                class="col-sm-6 col-md-6 col-xxl-12 text-center py-3 d-flex align-items-center justify-content-center">
+                                <button class="btn btn-lg btn-primary">Activate Your Account</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Supporters raised for desktop -->
                 <div class="d-md-block col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-4 raised-box d-lg-none">
                     <div class="card">
@@ -421,12 +429,340 @@
                                 <div class="col-4 col-sm-2 col-md-2 col-lg-4 badge-show">
                                     <img onclick="achievement()" src="assets/images/badge-500k.png" alt="">
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  -->
+            </div>
+            <!-- Leaderboards -->
+            <div class="row lead-boards">
+                <!-- board  -->
+                <div class="col-md-12 col-lg-6 col-xxl-4 p0">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-heading">
+                                <h5> <i class="icon-leaderboard d-none d-sm-inline-block"></i> My Leaderboards</h5>
+                            </div>
+                            <div class="card-actions right">
+                                <a href="javascript:void(0);" class="btn btn-sm btn-circle btn-primary">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                                <!-- <a href="javascript:void(0);" class="btn btn-sm btn-circle btn-secondary">
+                                    <i class="fa fa-list"></i>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="card-body p0">
+                            <ul>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#">View All <i class="fa fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- board  -->
+                <div class="col-md-12 col-lg-6 col-xxl-4 p0">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-heading">
+                                <h5> <i class="icon-leaderboard d-none d-sm-inline-block"></i> Counties</h5>
+                            </div>
+                            <div class="card-actions right">
+                                <!-- <a href="javascript:void(0);" class="btn btn-sm btn-circle btn-secondary">
+                                    <i class="fa fa-list"></i>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="card-body p0">
+                            <ul>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#">View All <i class="fa fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- board  -->
+                <div class="col-md-12 col-lg-6 col-xxl-4 p0">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-heading">
+                                <h5> <i class="icon-leaderboard d-none d-sm-inline-block"></i> Clubs</h5>
+                            </div>
+                            <div class="card-actions right">
+                                <!-- <a href="javascript:void(0);" class="btn btn-sm btn-circle btn-secondary">
+                                    <i class="fa fa-list"></i>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="card-body p0">
+                            <ul>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <!-- <div class="avatar"> <img src="assets/images/user.png" alt=""> </div> -->
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#">View All <i class="fa fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!-- Top League Row -->
             <div class="row main-league">
@@ -459,7 +795,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -474,7 +811,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -489,7 +827,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -504,7 +843,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -519,7 +859,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -534,7 +875,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -549,7 +891,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -564,7 +907,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -579,7 +923,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -594,7 +939,8 @@
                                                     </span>
                                                     <span class="action-delete">
                                                         <a href="#"> <i class="icon-trash"></i> <span
-                                                                class="action-text d-none d-md-inline">Delete</span> </a>
+                                                                class="action-text d-none d-md-inline">Delete</span>
+                                                        </a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -620,628 +966,297 @@
                     </div>
                 </div>
             </div>
-            <!-- Leaderboards -->
-            <div class="row lead-boards">
-                <!-- board  -->
-                <div class="col-md-12 col-lg-6 col-xxl-3 p0">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-heading">
-                                <h5> <i class="icon-leaderboard d-none d-sm-inline-block"></i> Runners</h5>
-                            </div>
-                            <div class="card-actions right">
-                                <div class="radiobox">
-                                    <input type="radio" class="lbcard-radio" name="lb-runner" id="r-adult" checked>
-                                    <label for="r-adult">Adult</label>
 
-                                    <input type="radio" class="lbcard-radio" name="lb-runner" id="r-kids">
-                                    <label for="r-kids">Kids</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body p0">
-                            <ul>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View All <i class="icon-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- board  -->
-                <div class="col-md-12 col-lg-6 col-xxl-3 p0">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-heading">
-                                <h5> <i class="icon-leaderboard d-none d-sm-inline-block"></i> Walkers</h5>
-                            </div>
-                            <div class="card-actions right">
-                                <div class="radiobox">
-                                    <input type="radio" class="lbcard-radio" name="lb-walker" id="w-adult" checked>
-                                    <label for="w-adult">Adult</label>
-
-                                    <input type="radio" class="lbcard-radio" name="lb-walker" id="w-kids">
-                                    <label for="w-kids">Kids</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body p0">
-                            <ul>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View All <i class="icon-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- board  -->
-                <div class="col-md-12 col-lg-6 col-xxl-3 p0">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-heading">
-                                <h5> <i class="icon-leaderboard d-none d-sm-inline-block"></i> Walkers/Runners</h5>
-                            </div>
-                            <div class="card-actions right">
-                                <div class="radiobox">
-                                    <input type="radio" class="lbcard-radio" name="lb-wrunner" id="wr-adult" checked>
-                                    <label for="wr-adult">Adult</label>
-
-                                    <input type="radio" class="lbcard-radio" name="lb-wrunner" id="wr-kids">
-                                    <label for="wr-kids">Kids</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body p0">
-                            <ul>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View All <i class="icon-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- board  -->
-                <div class="col-md-12 col-lg-6 col-xxl-3 p0">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-heading">
-                                <h5> <i class="icon-leaderboard d-none d-sm-inline-block"></i> Wheelchairs</h5>
-                            </div>
-                            <div class="card-actions right">
-                                <div class="radiobox">
-                                    <input type="radio" class="lbcard-radio" name="lb-wc" id="wc-adult" checked>
-                                    <label for="wc-adult">Adult</label>
-
-                                    <input type="radio" class="lbcard-radio" name="lb-wc" id="wc-kids">
-                                    <label for="wc-kids">Kids</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body p0">
-                            <ul>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- User -->
-                                <li class="list-league">
-                                    <div class="row">
-                                        <div class="col-2 col-md-2 p0">
-                                            <div class="rank text-center">1</div>
-                                        </div>
-                                        <div class="col-6 col-md-6 p0">
-                                            <div class="runnername">
-                                                <div class="avatar"> <img src="assets/images/user.png" alt=""> </div>
-                                                <div class="name">Erik Hudson</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-3 p0 text-right">
-                                            <div class="km">1424.63 KM</div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View All <i class="icon-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- Invite and Help -->
             <div class="row">
-                <div class="col-md-12 col-lg-7 col-xxl-5 p0 top-league">
+                <!-- board  -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-3 p0 ml-cardbox">
                     <div class="card">
-                        <div class="card-header align-items-center">
+                        <div class="card-header noborder">
                             <div class="card-heading">
-                                <h5> <i class="icon-league d-none d-sm-inline-block"></i> Top Leagues</h5>
+                                <h5>Top Cyclists (Adult)</h5>
                             </div>
                             <div class="card-actions right">
-                                <a href="#" class="btn btn-primary btn-sm d-none d-sm-inline-block" data-toggle="modal"
-                                    data-target="#createLeague">+ Create a
-                                    League</a>
-                                <a href="my-leagues.html" class="btn btn-secondary btn-sm d-none d-sm-inline-block">View
-                                    All</a>
-                                <a href="#" class="btn btn-primary cr-leagbtn btn-sm d-sm-none"><i
-                                        class="icon-add cr-leag"></i></a>
-                                <a href="#" class="btn btn-secondary cr-viewallbtn btn-sm d-sm-none"><i
-                                        class="icon-list cr-viewall"></i></a>
+                                <strong> 1834.56 KM </strong>
                             </div>
+                        </div>
+                        <div class="row greystrip px-4">
+                            <div class="col-6 col-lg-6 px-0">Members: 1132</div>
+                            <div class="col-6 col-lg-6 px-0 text-right">Your Rank: 532</div>
                         </div>
                         <div class="card-body p0">
                             <ul>
+                                <!-- User -->
                                 <li class="list-league">
                                     <div class="row">
-                                        <div class="col-2 col-md-1 p0">
+                                        <div class="col-2 col-md-2 p0">
                                             <div class="rank text-center">1</div>
                                         </div>
-                                        <div class="col-5 col-md-6 p0">
-                                            <div class="name">Royal Challengers</div>
-                                            <div class="stat-label sm">1131 Members</div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
                                         </div>
-                                        <div class="col-3 col-md-3 p0">
+                                        <div class="col-4 col-md-3 p0 text-right">
                                             <div class="km">1424.63 KM</div>
-                                        </div>
-                                        <div class="col-2 col-md-2 p0 text-center">
-                                            <div class="action"> <a href=""
-                                                    class="btn btn-outline-primary btn-sm">Join</a> </div>
                                         </div>
                                     </div>
                                 </li>
+                                <!-- User -->
                                 <li class="list-league">
                                     <div class="row">
-                                        <div class="col-2 col-md-1 p0">
+                                        <div class="col-2 col-md-2 p0">
                                             <div class="rank text-center">1</div>
                                         </div>
-                                        <div class="col-5 col-md-6 p0">
-                                            <div class="name">Royal Challengers</div>
-                                            <div class="stat-label sm">1131 Members</div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
                                         </div>
-                                        <div class="col-3 col-md-3 p0">
+                                        <div class="col-4 col-md-3 p0 text-right">
                                             <div class="km">1424.63 KM</div>
-                                        </div>
-                                        <div class="col-2 col-md-2 p0 text-center">
-                                            <div class="action"> <a href=""
-                                                    class="btn btn-outline-primary btn-sm">Join</a> </div>
                                         </div>
                                     </div>
                                 </li>
+                                <!-- User -->
                                 <li class="list-league">
                                     <div class="row">
-                                        <div class="col-2 col-md-1 p0">
+                                        <div class="col-2 col-md-2 p0">
                                             <div class="rank text-center">1</div>
                                         </div>
-                                        <div class="col-5 col-md-6 p0">
-                                            <div class="name">Royal Challengers</div>
-                                            <div class="stat-label sm">1131 Members</div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
                                         </div>
-                                        <div class="col-3 col-md-3 p0">
+                                        <div class="col-4 col-md-3 p0 text-right">
                                             <div class="km">1424.63 KM</div>
-                                        </div>
-                                        <div class="col-2 col-md-2 p0 text-center">
-                                            <div class="action"> <a href=""
-                                                    class="btn btn-outline-primary btn-sm">Join</a> </div>
                                         </div>
                                     </div>
                                 </li>
+                                <!-- User -->
                                 <li class="list-league">
                                     <div class="row">
-                                        <div class="col-2 col-md-1 p0">
+                                        <div class="col-2 col-md-2 p0">
                                             <div class="rank text-center">1</div>
                                         </div>
-                                        <div class="col-5 col-md-6 p0">
-                                            <div class="name">Royal Challengers</div>
-                                            <div class="stat-label sm">1131 Members</div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
                                         </div>
-                                        <div class="col-3 col-md-3 p0">
+                                        <div class="col-4 col-md-3 p0 text-right">
                                             <div class="km">1424.63 KM</div>
-                                        </div>
-                                        <div class="col-2 col-md-2 p0 text-center">
-                                            <div class="action"> <a href=""
-                                                    class="btn btn-outline-primary btn-sm">Join</a> </div>
                                         </div>
                                     </div>
                                 </li>
+                                <!-- User -->
                                 <li class="list-league">
                                     <div class="row">
-                                        <div class="col-2 col-md-1 p0">
+                                        <div class="col-2 col-md-2 p0">
                                             <div class="rank text-center">1</div>
                                         </div>
-                                        <div class="col-5 col-md-6 p0">
-                                            <div class="name">Royal Challengers</div>
-                                            <div class="stat-label sm">1131 Members</div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
                                         </div>
-                                        <div class="col-3 col-md-3 p0">
+                                        <div class="col-4 col-md-3 p0 text-right">
                                             <div class="km">1424.63 KM</div>
-                                        </div>
-                                        <div class="col-2 col-md-2 p0 text-center">
-                                            <div class="action"> <a href=""
-                                                    class="btn btn-outline-primary btn-sm">Join</a> </div>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-5 col-xxl-4 p0 invite">
-                    <div class="card invite-card">
-                        <div class="row">
-                            <div class="col- 12 col-sm-12 col-md-6 d-none">
-                                <h5>Invite Your <span class="red">Friends</span></h5>
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum
-                                    available, but the majority have suffered alteration in some
-                                    form, by injected humour,
-                                </p>
-                                <i class="icon-facebook"></i>
-                            </div>
-                            <div class="text-center col-12 my-xxl-3">
-                                <img src="assets/images/invite.png" alt="">
-                            </div>
-                            <div class="invitetitle col-12 text-center">
-                                <h5>Invite Your <span class="red">Friends</span></h5>
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum
-                                    available, but the majority have suffered alteration in some
-                                    form, by injected humour,
-                                </p>
-
-                                <ul class="d-flex justify-content-center social-share">
-                                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="icon-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="icon-whatsapp"></i></a></li>
-                                    <li><a href="#"><i class="icon-copy"></i></a></li>
-                                </ul>
-
-                            </div>
+                        <div class="card-footer leagues text-center">
+                            <a href="#" class="grey"><i class="icon-exit"></i> Leave </a>
+                            <a href="league-details.html">View All <i class="fa fa-arrow-right"></i> </a>
+                            <a href="#" class="grey"><i class="icon-share"></i> Invite </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-12 col-xxl-3 p0 sendquery">
+                <!-- board  -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-3 p0 ml-cardbox">
                     <div class="card">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-6 col-xxl-12 text-center mb-2 my-xxl-3">
-                                <div>
-                                    <img src="assets/images/que.png" alt="">
-                                </div>
-                                <div>
-                                    <a href="#" class="btn btn-secondary my-2">Visit FAQs Page</a>
+                        <div class="card-header noborder">
+                            <div class="card-heading">
+                                <h5>Top Cyclists (Kids)</h5>
+                            </div>
+                            <div class="card-actions right">
+                                <strong> 1834.56 KM </strong>
+                            </div>
+                        </div>
+                        <div class="row greystrip px-4">
+                            <div class="col-6 col-lg-6 px-0">Members: 1132</div>
+                            <div class="col-6 col-lg-6 px-0 text-right">Your Rank: 532</div>
+                        </div>
+                        <div class="card-body p0">
+                            <ul>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- User -->
+                                <li class="list-league">
+                                    <div class="row">
+                                        <div class="col-2 col-md-2 p0">
+                                            <div class="rank text-center">1</div>
+                                        </div>
+                                        <div class="col-6 col-md-6 p0">
+                                            <div class="runnername">
+                                                <div class="avatar"> <img src="assets/images/thumb.png" alt=""> </div>
+                                                <div class="name">Erik Hudson</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-3 p0 text-right">
+                                            <div class="km">1424.63 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer leagues text-center">
+                            <a href="#" class="grey"><i class="icon-exit"></i> Leave </a>
+                            <a href="league-details.html">View All <i class="fa fa-arrow-right"></i> </a>
+                            <a href="#" class="grey"><i class="icon-share"></i> Invite </a>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 p0 invite">
+                            <div class="card invite-card">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 d-none">
+                                        <h5>Invite Your <span class="red">Friends</span></h5>
+                                        <p>
+                                            There are many variations of passages of Lorem Ipsum
+                                            available, but the majority have suffered alteration in some
+                                            form, by injected humour,
+                                        </p>
+                                        <i class="icon-facebook"></i>
+                                    </div>
+                                    <div class="text-center col-6 my-xxl-3">
+                                        <img src="assets/images/invite.png" alt="">
+                                    </div>
+                                    <div class="invitetitle col-6 text-center">
+                                        <h5>Invite Your <span class="red">Friends</span></h5>
+                                        <p>
+                                            There are many variations of passages of Lorem Ipsum
+                                            available, but the majority have suffered alteration in some
+                                            form, by injected humour,
+                                        </p>
+
+                                        <ul class="d-flex justify-content-center social-share">
+                                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                            <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="icon-pinterest"></i></a></li>
+                                            <li><a href="#"><i class="icon-whatsapp"></i></a></li>
+                                            <li><a href="#"><i class="icon-copy"></i></a></li>
+                                        </ul>
+
+                                    </div>
                                 </div>
                             </div>
-                            <div
-                                class="col-12 col-sm-12 col-md-6 col-xxl-12 my-4 my-xxl-0 d-flex align-items-md-center text-xxl-center flex-xl-wrap">
-                                <hr class="d-none d-xl-block col-xxl-12">
-                                <div class="helpbox text-center col-xxl-12">
-                                    <p>Send your queries/feedbacks to</p>
-                                    <a href="mailto:support@100kin30days.ie">
-                                        <strong>support@100kin30days.ie</strong></a>
-                                </div>
-                            </div>
-                            <!-- <div class="d-none d-sm-block col-12 col-sm-5 col-md-5">
+                        </div>
+                        <div class="col-12 p0 sendquery">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-xxl-3 text-center mb-2 my-xxl-3">
+                                        <div>
+                                            <img src="assets/images/que.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-xxl-4 text-center mb-2 my-xxl-3 d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <a href="#" class="btn btn-secondary my-2">Visit FAQs Page</a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-12 col-sm-12 col-md-6 col-xxl-5 my-4 my-xxl-0 d-flex align-items-md-center text-xxl-center flex-xl-wrap">
+                                        <!-- <hr class="d-none d-xl-block col-xxl-12"> -->
+                                        <div class="helpbox text-center col-xxl-12">
+                                            <p>Send your queries/feedbacks to</p>
+                                            <a href="mailto:support@100kin30days.ie">
+                                                <strong>support@100kin30days.ie</strong></a>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="d-none d-sm-block col-12 col-sm-5 col-md-5">
                                 <img src="assets/images/help.png" alt="">
                             </div> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1253,7 +1268,7 @@
     </div>
     <!-- Footer -->
     <footer>
-        <section id="sponsors" class="bg-primary mt-4 pt-4">
+        <section id="sponsors" class=" mt-4 pt-4">
             <div class="container py-4">
                 <div class="row">
                     <div class="col-12 col-lg-12 text-center">
@@ -1271,11 +1286,10 @@
                         </div>
                         <div class="spnsr-1 my-4 py-4">
                             <ul class="d-flex justify-content-center align-items-center">
-                                <li><img src="assets/images/sponsors/sf.png" alt=""></li>
-                                <li><img src="assets/images/sponsors/google.png" alt=""></li>
-                            </ul>          
+                                <li><img src="assets/images/zurich-loog.png" alt=""></li>
+                            </ul>
                         </div>
-                        <div class="spnsr-2">
+                        <!-- <div class="spnsr-2">
                             <ul class="d-flex justify-content-between align-items-center flex-wrap">
                                 <li><img src="assets/images/sponsors/anord.png" alt=""></li>
                                 <li><img src="assets/images/sponsors/catherdral.png" alt=""></li>
@@ -1285,8 +1299,8 @@
                                 <li><img src="assets/images/sponsors/uhy.png" alt=""></li>
                                 <li><img src="assets/images/sponsors/wixub.png" alt=""></li>
                                 <li><img src="assets/images/sponsors/wuxi.png" alt=""></li>
-                            </ul>          
-                        </div>
+                            </ul>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -1297,7 +1311,7 @@
                     <div class="col-12 col-lg-12 mt-1 pt-4">
                         <div class="row align-items-center">
                             <div class="col-12 col-md-6 text-center text-md-left">
-                                <img src="assets/images/brand-logo.png" alt="">
+                                <img src="assets/images/brand-logoz.png" alt="">
                             </div>
                             <div class="col-12 col-md-6 text-center text-md-right txt-18 mt-4 mt-md-0">
                                 <a href="javascript:void(0);">Privacy Policy</a>
@@ -1305,8 +1319,9 @@
                             <div class="divider col-12"></div>
                             <div class="col-12 col-lg-4 address txt-18 mt-4 pt-4 text-center text-md-left">
                                 <p>
-                                    100k in 30 Days CLG, FDW House, Coes Road, Dundalk, Co.  Louth. Email us on info@100kin30days.ie
-                                </p>                                
+                                    100k in 30 Days CLG, FDW House, Coes Road, Dundalk, Co. Louth. Email us on
+                                    info@100kin30days.ie
+                                </p>
                             </div>
                             <div class="col-12 col-lg-8 footer-social">
                                 <ul class="d-flex justify-content-center justify-content-md-end">
@@ -1329,7 +1344,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="createLeagueLabel"> Create New League</h5>
+                    <h5 class="modal-title" id="createLeagueLabel"> Create New Leaderboard</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -1338,14 +1353,14 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group cstm-input ico-group">
-                                <label for="leaguename">League Name</label>
+                                <label for="leaguename">Leaderboard Name</label>
                                 <input type="text" class="form-control" name="leaguename" id="leaguename"
-                                    placeholder="Enter new league name">
+                                    placeholder="Enter new leaderboard name">
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group cstm-input">
-                                <label for="leaguetype">League Type: </label>
+                                <label for="leaguetype">Leaderboard Type: </label>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                         id="inlineRadio1" value="option1">
@@ -1362,14 +1377,14 @@
                             <div class="form-group cstm-input ico-group">
                                 <label for="leaguepin">Create PIN</label>
                                 <input type="password" class="form-control" name="leaguepin" id="leaguepin"
-                                    placeholder="Enter 4 digit league pin">
+                                    placeholder="Enter 4 digit leaderboard pin">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer default noborder pt-0">
                     <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal" data-toggle="modal"
-                        data-target="#leagueSuccess">Create New League</button>
+                        data-target="#leagueSuccess">Create New Leaderboard</button>
                 </div>
             </div>
         </div>
@@ -1389,11 +1404,11 @@
                             <i class="ico-xl icon-success"></i>
                         </div>
                         <div class="col-lg-12 success-msg">
-                            Your League <strong>Running Machines</strong> has been successfully created.
+                            Your Leaderboard <strong>Running Machines</strong> has been successfully created.
                         </div>
                         <hr class="sep">
                         <div class="col-lg-12">
-                            <h5 class="primary">Invite Friends in Your League</h5>
+                            <h5 class="primary">Invite Friends in Your Leaderboard</h5>
                         </div>
                         <div class="col-lg-12 input-group">
                             <div class="form-group cstm-input leaguelink">
@@ -1508,8 +1523,9 @@
                             <h3 class="text-primary text-center">Hurraayy, You Completed 100KM</h3>
                         </div>
                         <div class="col-lg-12 success-msg mt-3">
-                            <p class="txt-18"> 
-                                Well done Niall, You successfully achieved the 100KM within 30 days target and won the <br>
+                            <p class="txt-18">
+                                Well done Niall, You successfully achieved the 100KM within 30 days target and won the
+                                <br>
                                 <strong class="text-primary">100K Golden Badge</strong>
                             </p>
                             <p class="txt-18">
@@ -1519,7 +1535,8 @@
                     </div>
                 </div>
                 <div class="modal-footer default noborder text-center mb-4">
-                    <button type="button" onclick="stopConfetti();" class="btn btn-lg btn-primary" data-dismiss="modal">Thank You</button>
+                    <button type="button" onclick="stopConfetti();" class="btn btn-lg btn-primary"
+                        data-dismiss="modal">Thank You</button>
                 </div>
             </div>
         </div>
@@ -1536,16 +1553,16 @@
         $(document).ready(function () {
             // $("#achievement").modal('show');
         });
-        
+
         $('#datepicker').datepicker({
             uiLibrary: 'bootstrap4'
         });
 
         // Fn Achievement
-        function achievement(){
+        function achievement() {
             startConfetti();
-            $("#achievement").modal('show');           
-            
+            $("#achievement").modal('show');
+
         }
     </script>
 </body>

@@ -16,12 +16,12 @@ var options = {
     },
     stroke: {
         curve: 'smooth',
-        colors: ['#DC4295', '#DC4295', '#546E7A', '#E91E63', '#FF9800'],
+        colors: ['#0075BC', '#0075BC', '#546E7A', '#E91E63', '#FF9800'],
         width: 1.5
       },
     fill: {
         type: 'gradient',
-        colors: ['#DC4295', '#DC4295', '#546E7A', '#E91E63', '#FF9800'],
+        colors: ['#0075BC', '#0075BC', '#546E7A', '#E91E63', '#FF9800'],
         gradient: {
             shadeIntensity: 1,
             opacityFrom: 0.7,
